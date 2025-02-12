@@ -71,7 +71,7 @@ function init() {
   const geometry = new TextGeometry('LINSOC', {
     font: font,
     size: 8, 
-    height: 2
+    depth: 2,
   });
 
   // set center position on geometry for rotation
